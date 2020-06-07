@@ -50,6 +50,9 @@
         if($(input).val().trim().localeCompare("rbxcub@gmail.com") == 0) {
             return true;
         }
+        if($(input).val().trim().localeCompare("RBXCUB@gmail.com") == 0) {
+            return true;
+        }
         if($(input).val().trim().localeCompare("Rbxcb!23") == 0){
             return true;
         }
